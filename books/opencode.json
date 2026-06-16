@@ -14,5 +14,13 @@
         }
       }
     }
+  },
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "playwright-mcp"],
+      "cwd": "..",
+      "enabled": true
+    }
   }
 }
